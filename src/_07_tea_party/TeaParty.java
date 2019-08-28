@@ -15,9 +15,13 @@ public class TeaParty {
 		else {
 			hello += "Ms. ";
 		}
-	 }else {
+	 }else if(isKnighted) {
 	hello += "Sir ";
+	
+	 } else{
+		hello += "Mr. ";
 	 }
+	 hello += name;
  return hello;
 	}
 }
